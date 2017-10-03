@@ -13,7 +13,7 @@ function [humanhit,organismhit] = orgcompare(ascennum)
             if contains(temp.Source,'Homo sapiens','IgnoreCase',true) && i < humnum
                 humanseq = char(res(i));
                 humnum = i;
-            elseif ~contains(temp.Source,origin,'IgnoreCase',true) && i < orgnum
+            elseif ~contains(temp.Source,origin,'IgnoreCase',true) && ~contains(temp.Source,'Homo sapiens','IgnoreCase',true) && i < orgnum
                 orgseq = char(res(i));
                 orgnum = i;
             end

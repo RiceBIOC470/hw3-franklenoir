@@ -120,6 +120,9 @@ result = blasthits('NM_011949',50); % can only take 50, max hits parameter in bl
 
 [humanhit,organismhit] = orgcompare('NM_011949'); %warnings will come up but no errors
 
+%humanhit = NM_002745
+%organismhit = XM_021184651
+
 % Part 3. Choose at least one gene from the human genome and one gene from
 % another organism and run your code from part 2 on the relevant accession
 % numbers. Comment on the results. 
