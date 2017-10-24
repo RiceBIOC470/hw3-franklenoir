@@ -1,3 +1,14 @@
+% GB comments
+1.	100
+2a. 70 Close but the totatlen is calculated using only a fraction of the total sequence. Should have used seq1 or seq2 to determine the entire length. 
+2b. 70 same issue as 2a
+2c. 70 same issue as 2a. 
+3a 100 
+3b. 100
+3c. 100  	
+Overall: 87
+
+
 %HW3
 
 %% Problem 1 - Smith-Waterman alignment
